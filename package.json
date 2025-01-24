@@ -1,0 +1,22 @@
+{
+  "name": "nodeblog",
+  "version": "1.0.0",
+  "description": "a blog based on node js",
+  "main": "office.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "blog"
+  ],
+  "author": "Sylvester Okolie",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "lodash": "^4.17.21",
+    "mongoose": "^8.9.5"
+  }
+}
